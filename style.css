@@ -1,0 +1,114 @@
+/* write style here*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f4f3f8;
+    height: 100vh;
+    font-family: "abel";
+    overflow-y: hidden;
+}
+#navbarMonstera{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 70px;
+    height: 20vh;
+    align-items: center;
+
+}
+ #navFirst img{
+    display: flex;
+    width: 110px;
+}
+#navMid div:first-child::after{
+    content: "";
+    display: block;
+    height: 1.5px;
+    width: 100%;
+    background-color: #000000;
+    margin-top: 2px;
+}
+#navMid{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+#navEnd{
+    display: flex;
+    gap: 30px;
+
+}
+#midWhole{
+    height: 85vh;
+    width: 1440px;
+    margin: 0 0 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#midWholePart1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+#midWholePart11  > div > ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+#midWholePart11  > div > ul >li:first-child h1{
+    font-size: 100px;
+    font-family: "alleerta";
+    font-weight: 700;
+    margin-bottom: -20px;
+}
+#midWholePart11  > div > ul >li:nth-child(1),
+#midWholePart11  > div > ul >li:nth-child(2),
+#midWholePart11  > div > ul >li:nth-child(3),
+#midWholePart11  > div > ul >li:nth-child(4){
+    font-size: 18px;
+    font: "alleerta";
+}
+#midWholePart121{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #466d50;
+    color: #ffffff;
+    padding: 18px 28px;
+    border-radius: 50px;
+    font-family: "alleerta";
+
+}
+#midWholePart13{
+    display: flex;
+    gap: 30px;
+}
+#midWholePart13Parts{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#midWholePart13Parts div:last-child h4{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "allerta";
+}
+#imgMain{
+
+    height: 100%;
+} 
+
+
+
+
+
+
+
+
+
